@@ -6,7 +6,6 @@ body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	padding-top: 12%;
 
 }
 
@@ -17,9 +16,17 @@ body {
 	
 }
 
+.bg {
+	position: relative;	
+	top: 302px;
+}
+
 .FIO {
 	font-family: "OpenSans-SemiBold" ;
 	text-align: center;
+	font-size: 21px;
+	position: relative;
+	top: -14px;
 	
 }
 .perehod {
@@ -31,5 +38,6 @@ body {
 	width: 140px;
 	border-radius: 18px;
 	border:1px solid #f6f6f6;
+	position: relative;
 
 }
