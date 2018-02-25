@@ -6,16 +6,29 @@ body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+
 }
 
 .gosl {
 	border-radius: 125.5px;
 	border:3px solid #bebebe;
+	position: relative;
 	
 }
 
 .FIO {
-	font-family: 'OpenSans-SemiBold';
-	text-align: justify;
+	font-family: "OpenSans-SemiBold" ;
+	text-align: center;
 	
+}
+.perehod {
+	font-family: "FiraSans-Bold" ;
+	font-size: 14px;
+	color: #ffffff;
+	background: #33c1e3;
+	height: 38px;
+	width: 140px;
+	border-radius: 18px;
+	border:1px solid #f6f6f6;
+
 }
