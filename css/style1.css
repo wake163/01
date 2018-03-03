@@ -1,33 +1,72 @@
 body {
-	background: #f6f6f6;
+	background: black;
 }
 
-.hello {
+.wrapper {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	flex-direction: column;
-
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;
 }
 
-.gosl {
-	border-radius: 100px;
-	border:1px solid #bebebe;
-	position: relative;
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 	
 }
 
-.bg {
-	position: relative;	
-	top: 302px;
+.photo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gosl {
+
+	border-radius: 70px;
+	border:1px solid #bebebe;
+	height: 140px;
+	width: 140px;
+	position: absolute;
+}
+
+.name {
+
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	background: #ffffff;
+	height: 154px;
+	width: 300px;
+	border-radius: 8px 8px 0 0;
+	margin-bottom: 20px ;
 }
 
 .FIO {
 	font-family: "OpenSans-SemiBold" ;
 	text-align: center;
 	font-size: 21px;
-	position: relative;
-	top: -14px;
+	margin: 20px auto;
+
 	
+}
+
+.btn {
+	background: #33c1e3;
+	height: 78px;
+	width: 300px;
+	border-radius: 0 0 8px 8px;
+	margin-top: -20px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
 .perehod {
 	font-family: "FiraSans-Bold" ;
@@ -38,7 +77,6 @@ body {
 	width: 140px;
 	border-radius: 18px;
 	border:1px solid #f6f6f6;
-	position: relative;
 
 }
 
@@ -46,3 +84,4 @@ body {
 	background:#f6f6f6;
 	color:#33c1e3;
 }
+
