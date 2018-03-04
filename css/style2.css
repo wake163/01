@@ -1,3 +1,78 @@
 body {
-	background: #f6f6f6;
+	/*background: #f6f6f6;*/
+	background: black;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+.header {
+	
+	background: #ffffff;
+	width: 100%;
+	
+
+}
+
+.container1 {
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 70vw;
+	margin-left: 15vw;
+}
+
+
+.user {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+
+
+}
+
+
+
+.gos2 {
+
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	border:2px solid #bebebe;
+}
+
+.user__username {
+
+	margin-left: 20px; 
+
+}
+
+.FIO1 {
+
+	font-family: "FiraSans-Regular" ;
+	font-size: 18px;
+}
+
+.contacts {
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+
+.contacts__link {
+
+	font-family: "FiraSans-Bold" ;
+	font-size: 18px;
+	color: #32c3e5;
+
 }
