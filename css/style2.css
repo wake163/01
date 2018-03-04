@@ -1,21 +1,25 @@
 body {
 	/*background: #f6f6f6;*/
 	background: black;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	height: 100%;
-	width: 100%;
+
 	margin: 0;
 	padding: 0;
 
 }
 
+.maincontent {
+	display: flex;
+	
+	flex-direction: column;
+}
+
 .header {
-	
+
+	display: flex;
 	background: #ffffff;
-	width: 100%;
+	height: 80px;
 	
+		
 
 }
 
@@ -23,50 +27,48 @@ body {
 
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	max-width: 70vw;
-	margin-left: 15vw;
+	min-width: 80vw;
+	margin-left: 10vw;
+	justify-content:  space-between;
+
 }
+
 
 
 .user {
 
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	flex-direction: row;
+	justify-content: flex-start;
 
 
 }
 
-
-
 .gos2 {
-
+	
 	height: 60px;
 	width: 60px;
 	border-radius: 30px;
 	border:2px solid #bebebe;
+
 }
 
 .user__username {
-
+	
 	margin-left: 20px; 
-
-}
-
-.FIO1 {
-
 	font-family: "FiraSans-Regular" ;
 	font-size: 18px;
+
 }
+
+
 
 .contacts {
 
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	flex-direction: row;
+	
 }
 
 .contacts__link {
@@ -74,5 +76,33 @@ body {
 	font-family: "FiraSans-Bold" ;
 	font-size: 18px;
 	color: #32c3e5;
+	text-decoration: none;
+	border-bottom: 2px  dotted;
 
+}
+
+.contacts__link:hover {
+
+	color: #e85f61;
+
+}
+
+
+.contacts__dropdown {
+	  
+	  	background: #ffffff;
+	  	display: none;
+
+
+}
+
+.contacts:hover .contacts__dropdown {
+
+	display: block;
+}
+
+
+.contacts__dropdown-item {
+
+	list-style-type: none;
 }
