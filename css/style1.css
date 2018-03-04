@@ -1,5 +1,5 @@
 body {
-	background: black;
+	background: #f6f6f6;
 }
 
 .wrapper {
@@ -9,7 +9,7 @@ body {
 	flex-direction: column;
 	height: 100%;
 	width: 100%;
-	min-height: 100vh;
+	min-height: calc(100vh - 100px);
 }
 
 .container {
@@ -29,7 +29,7 @@ body {
 .gosl {
 
 	border-radius: 70px;
-	border:1px solid #bebebe;
+	border:2px solid #bebebe;
 	height: 140px;
 	width: 140px;
 	position: absolute;
@@ -73,10 +73,10 @@ body {
 	font-size: 14px;
 	color: #ffffff;
 	background: #33c1e3;
-	height: 38px;
+	height: 39px;
 	width: 140px;
-	border-radius: 18px;
-	border:1px solid #f6f6f6;
+	border-radius: 20px;
+	border:2px solid #f6f6f6;
 
 }
 
