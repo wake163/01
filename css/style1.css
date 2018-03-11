@@ -69,7 +69,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
+	
 }
 .perehod {
 	font-family: "FiraSans-Bold" ;
@@ -80,6 +80,7 @@ body {
 	width: 140px;
 	border-radius: 20px;
 	border:2px solid #f6f6f6;
+	cursor: pointer;
 
 }
 

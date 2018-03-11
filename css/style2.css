@@ -1,23 +1,24 @@
 body {
-	/*background: #f6f6f6;*/
-	background: black;
+	background: #f6f6f6;
 
-	margin: 0;
+
+	margin: 0 auto;
 	padding: 0;
 
 }
 
 .maincontent {
-	display: flex;
 	
-	flex-direction: column;
 }
 
 .header {
-
+	
 	display: flex;
+	align-items: center;
 	background: #ffffff;
 	height: 80px;
+	width: 100vw;
+
 	
 		
 
@@ -27,21 +28,33 @@ body {
 
 	display: flex;
 	align-items: center;
-	min-width: 80vw;
-	margin-left: 10vw;
-	justify-content:  space-between;
+	justify-content: space-between;
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 0;
+
 
 }
 
+.header__left {
 
+		
+
+}
 
 .user {
 
 	display: flex;
 	align-items: center;
-	justify-content: flex-start;
+	height: 80px;
 
 
+}
+
+.user__avatar {
+	display: flex;
+    align-items: center;
 }
 
 .gos2 {
@@ -61,13 +74,21 @@ body {
 
 }
 
+.header__right {
 
+	display: flex;
+	
+	height: 80px;
+	justify-content: center;
+
+}
 
 .contacts {
 
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+
 	
 }
 
@@ -78,7 +99,7 @@ body {
 	color: #32c3e5;
 	text-decoration: none;
 	border-bottom: 2px  dotted;
-
+	cursor: pointer;
 }
 
 .contacts__link:hover {
@@ -89,20 +110,49 @@ body {
 
 
 .contacts__dropdown {
-	  
+	  	
 	  	background: #ffffff;
-	  	display: none;
+   		 opacity: 0; 
+    	visibility: hidden;
+    	transition: all .3s ease .15s; 
+	  	border: 1px solid;
+	  	width: 190px;
+	  	height: 135px;
+	  	border-color: #bebebe;
+	  	border-radius: 8px;
+	  	margin-top: 100px; 
+
+
 
 
 }
 
 .contacts:hover .contacts__dropdown {
 
-	display: block;
+    opacity: 1; 
+    visibility: visible;
 }
 
 
 .contacts__dropdown-item {
-
+	display: flex;
 	list-style-type: none;
+	padding-top: 15px;
+
+}
+
+.contact {
+	justify-content: center;
+	text-decoration: none;
+	color: #414141;
+	font-family: "FiraSans-Light" ;
+	font-size: 18px;
+
+}
+
+.fa {
+
+	color: #33c1e3;
+
+
 }
