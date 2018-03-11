@@ -230,14 +230,13 @@ body {
 	color: #33c1e3;
 	text-decoration: none;
 	cursor: pointer;
-	
-	
-	
+
 }
 
+.nav__link:active {
 
-
-
+	
+}
 
 .about {
 
