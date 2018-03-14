@@ -193,11 +193,12 @@ body {
 
 	list-style-type: none; 
 	text-align: right;
+	
 }
 
 .nav__item {
 
-	height: 24px;
+	height: 44px;
 
 }
 
@@ -218,6 +219,7 @@ body {
 	color: #414141;
 	text-decoration: none;
 	cursor: pointer;
+
 	
 	
 	
@@ -230,12 +232,19 @@ body {
 	color: #33c1e3;
 	text-decoration: none;
 	cursor: pointer;
+	
+
+}
+
+.nav__link:hover:after {
+
+	content: 
 
 }
 
 .nav__link:active {
 
-	
+
 }
 
 .about {
