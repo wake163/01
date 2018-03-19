@@ -1,60 +1,74 @@
 body {
 	background: #f6f6f6;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 
 }
 
 .wrapper {
+
+	width: 100vw;
+	height: 100vh;
+	align-content: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
-	height: 100%;
-	width: 100%;
-	min-height: calc(100vh - 100px);
+
 }
 
 .container {
+
+	max-width: 300px;
 	display: flex;
-	align-items: center;
-	justify-content: center;
 	flex-direction: column;
+	align-items: center;
+	margin-bottom: 100px;
+
+
 	
 }
 
 .photo {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+
+	position: absolute;
+	margin-top: -72px;
+
+
 }
 
 .gosl {
 
 	border-radius: 70px;
 	border:2px solid #bebebe;
-	height: 140px;
-	width: 140px;
-	position: absolute;
+	height: 138px;
+	width: 138px;
+
 }
 
 .name {
 
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
+
 	background: #ffffff;
 	height: 154px;
 	width: 300px;
 	border-radius: 8px 8px 0 0;
-	margin-bottom: 20px ;
+	margin: 0 auto ;
+	
+	
+	
 }
 
 .FIO {
 	font-family: "OpenSans-SemiBold" ;
-	text-align: center;
+	margin: 0 auto;
 	font-size: 21px;
-	margin: 20px auto;
+	text-align: center;
+	width: 140px;
+	height: 139px;
+	align-items: flex-end;
+	display: flex;
+
+
 
 	
 }
@@ -64,11 +78,9 @@ body {
 	height: 78px;
 	width: 300px;
 	border-radius: 0 0 8px 8px;
-	margin-top: -20px;
-	position: relative;
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	align-items: center;
 	
 }
 .perehod {
@@ -76,11 +88,16 @@ body {
 	font-size: 14px;
 	color: #ffffff;
 	background: #33c1e3;
-	height: 39px;
-	width: 140px;
-	border-radius: 20px;
+	height: 36px;
+	width: 136px;
+	border-radius: 25px;
 	border:2px solid #f6f6f6;
 	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	text-decoration: none;
+
 
 }
 
