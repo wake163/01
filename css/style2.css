@@ -204,7 +204,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 40px; 
+    padding-right: 20px;
 
 
 }
@@ -225,11 +225,23 @@ body {
 
 }
 
-.nav__item_active > .nav__link {
+.nav__item_active .nav__link {
 
 	font-family: "FiraSans-Bold" ;
 	color: #33c1e3;
 	
+
+}
+
+.nav__item_active::after {
+	
+	content: "";
+    position: absolute;
+	height: 44px;
+	width: 6px;
+	background-color: #33c1e3;
+	top:110px;
+	margin-left: 20px;
 
 }
 
