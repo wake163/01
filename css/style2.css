@@ -169,7 +169,7 @@ body {
 	margin-top: 30px;
 }
 
-.container2 {
+.container__about {
 
 	display: flex;
 	justify-content: space-between;
@@ -199,12 +199,11 @@ body {
 
 	color: #32c3e5;
 	text-decoration: none;
-	cursor: pointer;
+	
 	height: 44px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 20px;
 
 
 }
@@ -216,6 +215,11 @@ body {
 	color: #414141;
 	text-decoration: none;
 	cursor: pointer;
+	border-right: 6px solid #f6f6f6;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
 		
 }
 
@@ -229,11 +233,26 @@ body {
 
 	font-family: "FiraSans-Bold" ;
 	color: #33c1e3;
-	
+	border-right: 6px solid #33c1e3;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
 
 }
 
-.nav__item_active::after {
+.nav__icon {
+
+	
+}
+
+.nav__text {
+
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+/*.nav__item_active::after {
 	
 	content: "";
     position: absolute;
@@ -243,7 +262,9 @@ body {
 	top:110px;
 	margin-left: 20px;
 
-}
+	ручное позиционирование для синего блока
+
+}*/
 
 .about {
 
@@ -283,12 +304,26 @@ body {
 	overflow: auto;
 }
 
+::-webkit-scrollbar {
+
+	width:6px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-width:1px 1px 1px 2px;
+    border-color: #d8d8d8;
+    background-color: #d8d8d8;
+    border-radius: 3px;
+}
+
 .about__text {
 
 	font-family: "FiraSans-Light" ;
 	font-size: 18px;
 	color: #646464;
 	line-height: 26px;
+	margin-right: 10px;
 }
 
 .about__btns {
@@ -296,6 +331,7 @@ body {
 	margin-top: 50px;
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 16px;
 
 }
 
@@ -314,6 +350,7 @@ body {
 	justify-content: center;
 	display: flex;
 	text-decoration: none;
+
 
 }
 
@@ -351,4 +388,9 @@ body {
 	height: 50px;
 	margin: 0 auto;
 	padding: 0;
+}
+
+.socials__item {
+
+	display: inline;
 }
