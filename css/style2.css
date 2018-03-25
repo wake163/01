@@ -164,6 +164,8 @@ body {
 
 }
 
+
+
 .content {
 
 	margin-top: 30px;
@@ -266,6 +268,10 @@ body {
 
 }*/
 
+
+/*ТУТ НАЧИНАЕТСЯ ЗАМЕНЯЕМАЯ ЧАСТЬ!!!*/
+
+
 .about {
 
 	display: flex;
@@ -367,6 +373,7 @@ body {
 
 }
 
+/*ТУТ ЗАКАНЧИВАЕТСЯ ЗАМЕНЯЕМАЯ ЧАСТЬ!!!*/
 
 .footer {
 
@@ -379,7 +386,7 @@ body {
 
 }
 
-.container3 {
+.container__footer {
 
 	display: flex;
 	align-items: center;
@@ -390,7 +397,90 @@ body {
 	padding: 0;
 }
 
+
+.copyright__icon {
+
+	font-family: "FiraSans-Light" ;
+	font-size: 14px;
+	color: #727272;
+}
+
+.copyright__text {
+
+	font-family: "FiraSans-Light" ;
+	font-size: 14px;
+	color: #727272;
+
+
+}
+
+.socials {
+
+	margin: 0;
+	padding: 0;
+}
+
 .socials__item {
 
-	display: inline;
+	display: inline-block;
+
 }
+
+.socials__link {
+
+ 	
+
+}
+
+.socials__link_fb {
+	
+	background-image: url(../img/FaceBook.png);
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	display: block;
+	height: 30px;
+	width: 31px;
+
+}
+
+.socials__link_fb:hover {
+
+	background-image: url(../img/FaceBook-a.png);
+
+}
+
+.socials__link_vk {
+	
+	background-image: url(../img/vk.png);
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	display: block;
+	height: 30px;
+	width: 32px;
+
+}
+
+.socials__link_vk:hover {
+
+	background-image: url(../img/vk-a.png);
+
+}
+
+.socials__link_tw {
+	
+	background-image: url(../img/Twitter.png);
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	display: block;
+	height: 30px;
+	width: 31px;
+
+}
+
+.socials__link_tw:hover {
+
+	background-image: url(../img/Twitter-a.png);
+
+}
+
+
