@@ -310,6 +310,68 @@ body {
 /*ТУТ НАЧИНАЕТСЯ ЗАМЕНЯЕМАЯ ЧАСТЬ!!!*/
 
 
+.career {
+
+	display: flex;
+	width: 740px;
+
+}
+
+.career__left {
+
+	padding-left: 60px;
+
+}
+
+.title {
+
+	font-family: "Fira Sans" ;
+	font-weight: 500;
+	font-size: 35px;
+	color: #414141;
+}
+
+.career__pic {
+
+	margin-top: 20px;
+}
+
+.career__right {
+
+	padding-left: 0px;
+	margin-top: 20px;
+}
+
+
+
+
+.career__desc {
+
+	width: 380px;
+	height: 105px;
+	border-radius: 8px;
+	background: #ffffff;
+
+}
+
+.career__stage {
+
+	list-style-type: none;
+}
+
+
+
+/*.about__text {
+
+	font-family: "Fira Sans" ;
+	font-weight: 300;
+	font-size: 18px;
+	color: #646464;
+	line-height: 26px;
+	margin-right: 10px;
+}*/
+
+
 
 /*ТУТ ЗАКАНЧИВАЕТСЯ ЗАМЕНЯЕМАЯ ЧАСТЬ!!!*/
 
