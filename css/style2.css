@@ -75,7 +75,8 @@ body {
 .user__username {
 	
 	margin-left: 20px; 
-	font-family: "FiraSans-Regular" ;
+	font-family: "Fira Sans" ;
+	font-weight: 400;
 	font-size: 18px;
 
 }
@@ -101,7 +102,8 @@ body {
 
 .contacts__link {
 
-	font-family: "FiraSans-Bold" ;
+	font-family: "Fira Sans" ;
+	font-weight: 700;
 	font-size: 18px;
 	color: #32c3e5;
 	text-decoration: none;
@@ -152,7 +154,8 @@ body {
 	justify-content: center;
 	text-decoration: none;
 	color: #414141;
-	font-family: "FiraSans-Light" ;
+	font-family: "Fira Sans" ;
+	font-weight: 300;
 	font-size: 18px;
 
 }
@@ -212,7 +215,8 @@ body {
 
 .nav__link {
 
-	font-family: "FiraSans-Regular" ;
+	font-family: "Fira Sans" ;
+	font-weight: 400;
 	font-size: 18px;
 	color: #414141;
 	text-decoration: none;
@@ -233,7 +237,8 @@ body {
 
 .nav__item_active .nav__link {
 
-	font-family: "FiraSans-Bold" ;
+	font-family: "Fira Sans" ;
+	font-weight: 700;
 	color: #33c1e3;
 	border-right: 6px solid #33c1e3;
 	height: 44px;
@@ -297,7 +302,8 @@ body {
 
 .title {
 
-	font-family: "FiraSans-Medium" ;
+	font-family: "Fira Sans" ;
+	font-weight: 500;
 	font-size: 35px;
 	color: #414141;
 
@@ -325,7 +331,8 @@ body {
 
 .about__text {
 
-	font-family: "FiraSans-Light" ;
+	font-family: "Fira Sans" ;
+	font-weight: 300;
 	font-size: 18px;
 	color: #646464;
 	line-height: 26px;
@@ -343,7 +350,8 @@ body {
 
 .btn {
 
-	font-family: "FiraSans-Bold" ;
+	font-family: "Fira Sans" ;
+	font-weight: 700;
 	font-size: 14px;
 	color: #e85f61;
 	background: #f6f6f6;
@@ -400,14 +408,16 @@ body {
 
 .copyright__icon {
 
-	font-family: "FiraSans-Light" ;
+	font-family: "Fira Sans" ;
+	font-weight: 300;
 	font-size: 14px;
 	color: #727272;
 }
 
 .copyright__text {
 
-	font-family: "FiraSans-Light" ;
+	font-family: "Fira Sans" ;
+	font-weight: 300;
 	font-size: 14px;
 	color: #727272;
 
