@@ -322,7 +322,43 @@ body {
 
 /*ТУТ НАЧИНАЕТСЯ ЗАМЕНЯЕМАЯ ЧАСТЬ!!!*/
 
+.portfolio {
 
+	display: flex;
+	width: 740px;
+	flex-direction: column;
+
+}
+
+H1 {
+
+	font-family: "Fira Sans" ;
+	font-weight: 500;
+	font-size: 35px;
+	color: #414141;
+	margin-left: 20px;	
+}
+
+.my__jobs {
+
+	display: flex;
+	width: 740px;
+	margin-left: 20px;
+	justify-content: space-between;
+}
+
+.job {
+	display: flex;
+	
+	height: 280px;
+	width: 220px;
+}
+
+.job__img {
+
+	height: 170px;
+	width: 220px;
+}
 
 /*ТУТ ЗАКАНЧИВАЕТСЯ ЗАМЕНЯЕМАЯ ЧАСТЬ!!!*/
 

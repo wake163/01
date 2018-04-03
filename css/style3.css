@@ -332,7 +332,7 @@ body {
 
 .career__left {
 
-	padding-left: 30px;
+	padding-left: 20px;
 
 }
 
@@ -351,7 +351,7 @@ H1 {
 
 .career__right {
 
-	margin-left: 20px;
+	margin-left: 30px;
 	margin-top: 70px;
 	width: 360px;
 }
@@ -363,7 +363,7 @@ H1 {
     height: 480px;
     border-right: 1px solid #dddddd;
     margin-top: 20px;
-    margin-left: 1px;
+    margin-left: 1.2px;
 }
 
 .career__desc {
@@ -465,6 +465,24 @@ H1 {
     z-index: 1;
     border-radius: 50%;
 }
+
+/*.dot {
+
+    position: absolute;
+    display: flex;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #33c1e3;
+    border: 5px solid #f6f6f6;
+    margin-top: -20px;
+    margin-left: -40px;
+    z-index: 1;
+    border-radius: 50%;
+}*/
+
+/*как сделать, что бы точка не скакала?*/
+
 
 .year:hover:after {
 
