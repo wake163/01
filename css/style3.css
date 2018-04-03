@@ -357,7 +357,14 @@ H1 {
 }
 
 
+.line {
 
+    position: absolute;
+    height: 480px;
+    border-right: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-left: 1px;
+}
 
 .career__desc {
 
