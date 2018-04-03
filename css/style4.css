@@ -343,14 +343,26 @@ H1 {
 
 	display: flex;
 	width: 740px;
+	height: 65vh;
 	margin-left: 20px;
-	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex: 1;
+	justify-content: flex-start;
+	align-content: space-between;
 }
 
 .job {
 	display: flex;
-	
+	flex-direction: column;
+	margin-left: 20px;
 	height: 280px;
+	width: 220px;
+}
+
+.image {
+
+	height: 170px;
 	width: 220px;
 }
 
@@ -358,6 +370,62 @@ H1 {
 
 	height: 170px;
 	width: 220px;
+	border-radius: 9px 9px 0 0;
+}
+
+.job__text {
+	margin: 0 auto;
+	width: 220px;
+	height: 110px;
+	background-color: #ffffff;
+	border-radius: 0 0 9px 9px;
+}
+
+ul {
+
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.name__url {
+
+	
+	text-decoration: none;
+	font-family: "Fira Sans" ;
+	font-weight: 400;
+	font-size: 21px;
+	color: #33c1e3;
+
+}
+
+.name__url:hover {
+
+	color: #e85f61;
+	cursor: pointer;
+}
+
+.make {
+
+	
+	font-family: "Fira Sans" ;
+	font-weight: 300;
+	font-size: 14px;
+	color: #414141;
+
+}
+
+.what {
+
+	padding-top: 20px;
+	font-family: "Fira Sans" ;
+	font-weight: 700;
+	font-size: 14px;
+	color: #727272;
+
+}
+
+.what__text {
+	padding-left: 5px;
 }
 
 /*ТУТ ЗАКАНЧИВАЕТСЯ ЗАМЕНЯЕМАЯ ЧАСТЬ!!!*/
