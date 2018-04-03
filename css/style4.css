@@ -344,7 +344,6 @@ H1 {
 	display: flex;
 	width: 740px;
 	height: 65vh;
-	margin-left: 20px;
 	flex-direction: row;
 	flex-wrap: wrap;
 	flex: 1;
@@ -355,7 +354,7 @@ H1 {
 .job {
 	display: flex;
 	flex-direction: column;
-	margin-left: 20px;
+	margin-left: 25px;
 	height: 280px;
 	width: 220px;
 }
