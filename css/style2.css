@@ -135,7 +135,7 @@ body {
    border-left: 10px solid transparent;
    border-right: 10px solid transparent;
    border-bottom: 10px solid #bebebe;
-    right: 250px;
+    right: 520px;
     top: 50px;
  }
   .triangle:before {
@@ -162,7 +162,7 @@ body {
 	  	border-color: #bebebe;
 	  	border-radius: 8px;
 	  	margin-top: 10px; 
-	  	right: 150px;
+	  	right: 420px;
     position: absolute;
 
 
@@ -268,6 +268,19 @@ body {
 
 }
 
+.nav__link:active {
+
+	font-family: "Fira Sans" ;
+	font-weight: 700;
+	color: #33c1e3;
+	border-right: 6px solid #33c1e3;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
+
+}
+
 .nav__item_active .nav__link {
 
 	font-family: "Fira Sans" ;
@@ -334,7 +347,7 @@ body {
 	padding-left: 60px;
 }
 
-.title {
+H1 {
 
 	font-family: "Fira Sans" ;
 	font-weight: 500;
