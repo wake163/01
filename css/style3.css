@@ -332,7 +332,7 @@ body {
 
 .career__left {
 
-	padding-left: 60px;
+	padding-left: 30px;
 
 }
 
@@ -351,8 +351,9 @@ H1 {
 
 .career__right {
 
-	padding-left: 0px;
+	margin-left: 20px;
 	margin-top: 70px;
+	width: 360px;
 }
 
 
@@ -374,7 +375,7 @@ H1 {
 
 	display: flex;
     margin-top: -70px;
-	margin-left: -65px;
+	margin-left: -90px;
 	font-family: "Fira Sans" ;
 	font-weight: 300;
 	font-size: 14px;
@@ -444,6 +445,46 @@ H1 {
 	color: #33c1e3;	
 
 }
+
+.year::after {
+
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #33c1e3;
+    border: 5px solid #f6f6f6;
+    right: 890px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.year:hover:after {
+
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #33c1e3;
+    border: 5px solid #94e0f2;
+    right: 890px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.career__desc:hover  .year::after {
+
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #33c1e3;
+    border: 5px solid #94e0f2;
+    right: 890px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
 
 /*.about__text {
 
